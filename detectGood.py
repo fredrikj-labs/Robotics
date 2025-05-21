@@ -4,7 +4,8 @@ import requests
 from PIL import Image
 import io
 
-jetbot_ip = '194.47.156.221'
+jetbot_ip = '194.47.156.140'
+
 
 
 # Parametrar
@@ -35,13 +36,14 @@ while True:
         for contour in contours:
             area = cv2.contourArea(contour)
             if area > 15:
-                x, y, w, h = cv2.boundingRect(contour)
-                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
+                None
+                # x, y, w, h = cv2.boundingRect(contour)
+                # cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
 
                 # Avståndsberäkning
-                distance_cm = (KNOWN_WIDTH * FOCAL_LENGTH) / w
-                cv2.putText(frame, f"Distance: {distance_cm:.2f} cm", (x, y - 10),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,255,0), 2)
+                #distance_cm = (KNOWN_WIDTH * FOCAL_LENGTH) / w
+                # cv2.putText(frame, f"Distance: {distance_cm:.2f} cm", (x, y - 10),
+                #             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,255,0), 2)
 
         # Visa
         cv2.imshow("Jetbot Red Object + Distance", frame)
