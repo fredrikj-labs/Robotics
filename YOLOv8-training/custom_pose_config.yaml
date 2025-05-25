@@ -1,0 +1,47 @@
+
+# YOLOv8 Pose training configuration
+
+# Training hyperparameters
+epochs: 300
+batch: 16
+imgsz: 512
+patience: 50
+save: True
+cache: True
+device: 0
+workers: 8
+pretrained: True
+optimizer: 'AdamW'
+lr0: 0.001
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 3.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+
+# Augmentation parameters
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 10.0  # Reduced rotation to preserve orientation
+translate: 0.1
+scale: 0.3
+shear: 0.0
+perspective: 0.0
+flipud: 0.0  # No vertical flip
+fliplr: 0.0  # No horizontal flip (would mess up yaw)
+mosaic: 0.8
+mixup: 0.1
+copy_paste: 0.0
+
+# Loss weights
+box: 7.5
+cls: 0.5
+dfl: 1.5
+pose: 1.0  # Custom pose loss weight
+
+# Custom pose parameters
+pose_dims: 1  # Yaw angle only
+pose_loss_type: 'smooth_l1'
+pose_classes: [0, 1, 2]  # Only robots have pose

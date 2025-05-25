@@ -1,0 +1,4 @@
+train: C:/Users/fredr/BTH/Robotik Project/Robotics/21MajFiles/apa/synthetic_squares_extreme_fullbox/images/train
+val: C:/Users/fredr/BTH/Robotik Project/Robotics/21MajFiles/apa/synthetic_squares_extreme_fullbox/images/val
+nc: 11
+names: ["blue", "red", "orange", "yellow", "purple", "brown", "gray", "black", "pink", "white", "green"]

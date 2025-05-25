@@ -1,3 +1,24 @@
 /myenv
 .myenv
 /.myenv
+
+# Images in 21MajFiles
+21MajFiles/**/*.jpg
+21MajFiles/**/*.jpeg
+21MajFiles/**/*.png
+21MajFiles/**/*.gif
+21MajFiles/**/*.bmp
+21MajFiles/**/*.svg
+21MajFiles/**/*.ico
+
+YOLOv8-training/yolo_pose_dataset/*
+YOLOv8-training/jetbot_groundview_dataset/*
+yolo_dataset/*
+blender_paper_dataset/*
+
+
+# Text files in 21MajFiles
+21MajFiles/**/*.txt
+
+# JSON files in 21MajFiles
+21MajFiles/**/*.json
