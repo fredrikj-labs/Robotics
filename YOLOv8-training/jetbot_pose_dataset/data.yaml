@@ -1,0 +1,11 @@
+kpt_shape:
+- 1
+- 3
+names:
+  0: robot
+  1: goal_box
+nc: 2
+path: c:\Users\fredr\BTH\Robotik Project\Robotics\YOLOv8-training\jetbot_pose_dataset
+test: test/images
+train: train/images
+val: val/images

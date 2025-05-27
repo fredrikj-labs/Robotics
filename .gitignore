@@ -15,6 +15,10 @@ YOLOv8-training/yolo_pose_dataset/*
 YOLOv8-training/jetbot_groundview_dataset/*
 yolo_dataset/*
 blender_paper_dataset/*
+YOLOv8-training/jetbot_pose_dataset/test/*
+YOLOv8-training/jetbot_pose_dataset/train/*
+YOLOv8-training/jetbot_pose_dataset/val/*
+
 
 
 # Text files in 21MajFiles
