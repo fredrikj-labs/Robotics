@@ -1,0 +1,11 @@
+architecture: TRUE_SEPARATED
+description: Pure detection dataset - robot and goal only
+names:
+  0: robot
+  1: goal_box
+nc: 2
+orientation_data_path: c:\Users\fredr\BTH\Robotik Project\Robotics\YOLOv8-training\true_separated_cordic\orientation_data
+path: c:\Users\fredr\BTH\Robotik Project\Robotics\YOLOv8-training\true_separated_cordic\true_detection_only
+test: test/images
+train: train/images
+val: val/images

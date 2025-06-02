@@ -1,0 +1,29 @@
+cordic_config:
+  angular_resolution: 5.625
+  graceful_degradation: true
+  hierarchical_binary_classification: true
+  num_bits: 6
+names:
+  0: bit0_0
+  1: bit0_1
+  2: bit1_0
+  3: bit1_1
+  4: bit2_0
+  5: bit2_1
+  6: bit3_0
+  7: bit3_1
+  8: bit4_0
+  9: bit4_1
+  10: bit5_0
+  11: bit5_1
+  12: goal_box
+nc: 13
+path: c:\Users\fredr\BTH\Robotik Project\Robotics\YOLOv8-training\jetbot_cordic_hierarchical_spatial
+spatial_features:
+  angle_to_target: true
+  complete_spatial_data: true
+  distance_estimation: true
+  relative_positioning: true
+test: test/images
+train: train/images
+val: val/images

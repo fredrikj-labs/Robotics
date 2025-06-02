@@ -18,6 +18,10 @@ blender_paper_dataset/*
 YOLOv8-training/jetbot_pose_dataset/test/*
 YOLOv8-training/jetbot_pose_dataset/train/*
 YOLOv8-training/jetbot_pose_dataset/val/*
+YOLOv8-training/**/*.txt
+YOLOv8-training/**/*.json
+*.png
+*.jpg
 
 
 
