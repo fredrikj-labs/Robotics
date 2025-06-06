@@ -1,0 +1,5 @@
+path: jetbot_groundview_dataset
+train: images/train
+val: images/val
+nc: 4
+names: [jetbot1, jetbot2, jetbot3, red_box]

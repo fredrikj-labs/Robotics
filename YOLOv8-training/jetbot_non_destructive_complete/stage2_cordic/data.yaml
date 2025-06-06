@@ -1,0 +1,22 @@
+cordic_config:
+  angular_resolution: 22.5
+  hierarchical_binary: true
+  num_bits: 4
+  preserves_detection: true
+names:
+  0: robot
+  1: bit0_0
+  2: bit0_1
+  3: bit1_0
+  4: bit1_1
+  5: bit2_0
+  6: bit2_1
+  7: bit3_0
+  8: bit3_1
+  9: goal_box
+nc: 10
+path: c:\Users\fredr\BTH\Robotik Project\Robotics\YOLOv8-training\jetbot_non_destructive_complete\stage2_cordic
+spatial_data_available: true
+test: test/images
+train: train/images
+val: val/images

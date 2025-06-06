@@ -1,0 +1,6 @@
+
+path: C:\Users\fredr\BTH\Robotik Project\Robotics\21MajFiles\apa\synthetic_squares
+train: images/train
+val: images/val
+nc: 6
+names: ['blue', 'red', 'orange', 'yellow', 'purple', 'brown']

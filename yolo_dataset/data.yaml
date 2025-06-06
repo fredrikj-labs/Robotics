@@ -1,0 +1,6 @@
+path: C:/Users/fredr/BTH/Robotics/yolo_dataset
+train: images/train
+val: images/val
+nc: 2
+names: ["blue", "yellow"]
+
