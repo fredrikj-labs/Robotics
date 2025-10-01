@@ -1,6 +1,66 @@
+# Virtual Environments
 /myenv
 .myenv
 /.myenv
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Model files (if too large - uncomment if needed)
+# *.pt
+# *.pth
+# *.onnx
+# *.weights
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Images in 21MajFiles
 21MajFiles/**/*.jpg
@@ -11,6 +71,7 @@
 21MajFiles/**/*.svg
 21MajFiles/**/*.ico
 
+# Dataset directories
 YOLOv8-training/yolo_pose_dataset/*
 YOLOv8-training/jetbot_groundview_dataset/*
 yolo_dataset/*
@@ -23,10 +84,16 @@ YOLOv8-training/**/*.json
 *.png
 *.jpg
 
-
-
 # Text files in 21MajFiles
 21MajFiles/**/*.txt
 
 # JSON files in 21MajFiles
 21MajFiles/**/*.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
